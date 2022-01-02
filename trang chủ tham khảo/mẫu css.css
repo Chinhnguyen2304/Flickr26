@@ -1,0 +1,53 @@
+element.style {
+    height: 230px;
+}
+.feed-rail-view .feed-rail .dummy-loader .box.container-box {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.dummy-loader .box:nth-child(odd) {
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s;
+}
+.dummy-loader .box {
+    background-color: #e1e1e1;
+    border-radius: 4px;
+    -webkit-animation-name: dummy-loader-pulse;
+    animation-name: dummy-loader-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+div {
+    display: block;
+}
+.feed-new-page-view .feed-new-page-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+article.light, body, body.light, div.light, footer.light, header.light, main.light, p.light, section.light {
+    color: #212124;
+    background-color: #f3f5f6;
+}
+body {
+    font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
+}
+button, html, input, select, textarea {
+    font-family: sans-serif;
+}
