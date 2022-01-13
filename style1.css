@@ -95,6 +95,7 @@ footer{
     font-size: 30px;
 }
 .cb-slideshow,
+
 .cb-slideshow:after { 
     position: fixed;
     width: 100%;
