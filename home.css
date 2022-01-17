@@ -22,12 +22,14 @@ header img{
 .menu ul{ 
     list-style: none;
     display: flex;
+
 }
 .menu ul li{
     padding: 10px 10px;
 }
 .menu ul li a{
     color: white;
+    text-decoration: none;
 }
 .header-right{
     
@@ -54,7 +56,14 @@ header img{
 
 
 .main{
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    background-color: rgb(243, 234, 234);
+}
+.col-lg-8 p{
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-bottom: 0;
 }
 .grid-container {
     display: grid;
@@ -68,11 +77,11 @@ header img{
     position: relative;
   }
   .location-image {
-      width: 384px ;
-      height:133.328px ;
-      padding: 30px;
-    line-height: 0;
-    overflow: hidden;
+      width: 332px;
+      height:133.328px;
+      padding: 20px;
+      line-height: 0;
+      overflow: hidden;
   }
   
   .location-image img {
@@ -106,3 +115,113 @@ header img{
     .location-image img {
       filter: blur(2px);
     }
+}
+.foot{
+    display: flex;
+    padding-left: 25px;
+    justify-content: space-between;
+}
+.left-container {
+    display: flex;
+}
+
+.left-container img{
+    margin-top: 10px;
+    border-radius: 50% ;
+    width: 34px ;
+    height:32px ;
+}
+.left-container .attribution{
+    margin-left: 5px;
+}
+.left-container .attribution .displayname a{
+    color: black;
+}
+.left-container .attribution .username{
+    color:lightgray;
+    
+}
+.right-container{
+    padding-right: 10px;
+    padding-top: 10px
+}
+.right-container .view button{
+    background-color:#128fdc;
+    border: none;
+    color: white;
+    border-radius: 5px;
+
+}
+.right-container .view button i{
+    padding-right: 5px;
+}
+.expo{
+    padding: 10px;
+}
+.expo .expo-container{
+    display:flex;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 0.1em;
+    padding: 10px;
+
+}
+.expo .expo-container img{
+    width: 150px;
+    height:80px;
+    line-height: 0;
+    overflow: hidden;
+}
+.expo .expo-container2{
+    margin-top: 3px;
+    display:flex;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 0.1em;
+
+}
+.expo .expo-container2 img{
+    width: 150px;
+    height:80px;
+    line-height: 0;
+    overflow: hidden;
+}
+.viewgroup{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.viewgroup .attribution .displayname{
+    margin-top: 10px;
+}
+.viewgroup .right-container .view button{
+    padding: 2px 12px;
+}
+.viewgroup .right-container .view button{
+        background-color: white;
+        color: #128fdc;
+        border-radius: 5px;
+        border: 2px solid #128fdc;
+}
+.listviewgroup{
+    display:flex;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 0.1em;
+}
+.listviewgroup .expo-container img{
+    width: 100px;
+    height:60px;
+    line-height: 0;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.blog .blg img{
+    width: 310px;
+    height:180px;
+}
+header .container .header-left a:hover{
+    
+    text-decoration: none;
+}
+header .container .header-left a:hover .logo{
+    color: rgba(223, 217, 217, 0.1);    
+    opacity: 0.75;
+}

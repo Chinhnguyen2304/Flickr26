@@ -1,0 +1,28 @@
+element.style {
+}
+.justify-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+*, :after, :before {
+    background-repeat: no-repeat;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+user agent stylesheet
+div {
+    display: block;
+}

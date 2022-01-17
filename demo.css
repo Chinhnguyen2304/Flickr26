@@ -191,3 +191,9 @@ p.codrops-demos a.current-demo:hover{
 		left: auto;
 	}
 }
+header .top-menu .row .col-lg-2 a:hover{
+    text-decoration: none;
+}
+header .top-menu .row .col-lg-2 a:hover .logo{  
+    opacity: 0.75;
+}
